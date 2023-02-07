@@ -1,0 +1,63 @@
+[{
+  "_id": "63ac6844d6f5f0c143c452a8" ,
+  "usn": "admin",
+  "psw": "admin123456",
+  "name": "admin",
+  "img": "assets/images/user/avt/default_ava.png",
+  "status": 1,
+  "type": 1
+},{
+  "_id":"63ac6844d6f5f0c143c452a9",
+  "usn": "seller",
+  "psw": "seller123456",
+  "name": "seller",
+  "img": "assets/images/user/avt/default_ava.png",
+  "status": 1,
+  "type": -1,
+  "rating": 4, "rvcount": 12.567, "sales": 890
+},{
+  "_id": "63ac6844d6f5f0c143c452a7",
+  "usn": "user1",
+  "psw": "user123456",
+  "name": "user1",
+  "img": "assets/images/user/avt/default_ava.png",
+  "status": 1,
+  "type": 0,
+  "sales": 890
+},{
+  "_id": "63ac7d2186ebbd0d94707bef",
+  "usn": "hahaha31247",
+  "psw": "123",
+  "name": "Cường Phạm",
+  "img": "assets/images/user/avt/default_ava.png",
+  "status": 1,
+  "type": 0,
+  "sales": 890
+},
+{"img": "assets/images/user/avt/003.jpeg", "name": "Raiden Shogun", "sales": 890, "usn": "shogun", "psw": "123", "status": 1, "type": 0},
+{"img": "assets/images/user/avt/004.jpeg", "name": "Kamisato Ayaka", "sales": 250, "usn": "ayaka", "psw": "123", "status": 1, "type": 0},
+{"img": "assets/images/user/avt/005.jpeg", "name": "Ganyu", "sales": 9990, "usn": "ganyu", "psw": "123", "status": 1, "type": 0},
+{"img": "assets/images/user/avt/006.jpeg", "name": "Kuki Shinobu", "sales": 560, "usn": "kuki", "psw": "123", "status": 1, "type": 0},
+{"img": "assets/images/user/avt/007.jpeg", "name": "Lightning Keqing", "sales": 1020, "usn": "keqing", "psw": "123", "status": 1, "type": 0},
+{"img": "assets/images/user/avt/008.jpeg", "name": "Nilou", "sales": 890, "usn": "nilu", "psw": "123", "status": 1, "type": 0},
+{"img": "assets/images/user/avt/009.jpeg", "name": "Yae Miko", "sales": 890, "usn": "miko", "psw": "123", "status": 1, "type": 0},
+{"img": "assets/images/user/avt/010.jpeg", "name": "Lumine", "sales": 250, "usn": "lumine", "psw": "123", "status": 1, "type": 0},
+
+{"img": "assets/images/logo/SunriseFoods-logo.png", "name": "Sunrise Foods", "rating": 4, "rvcount": 12.567, "sales": 890, "usn": "sunrisefoods", "psw": "123", "status": 1, "type": -1},
+{"img": "assets/images/logo/FlavourOfIndia-logo.png", "name": "Flavour of India", "rating": 4, "rvcount": 15.927, "sales": 1020, "usn": "flavorofindia", "psw": "123", "status": 1, "type": -1},
+{"img": "assets/images/logo/Friggitoria-logo.png", "name": "La Friggitoria", "rating": 3, "rvcount": 26.546, "sales": 890, "usn": "lafriggitoria", "psw": "123", "status": 1, "type": -1},
+{"img": "assets/images/logo/PanzerHot-logo.png", "name": "Panzer Hot", "rating": 3, "rvcount": 26.546, "sales": 890, "usn": "panzerhot", "psw": "123", "status": 1, "type": -1},
+
+{"img": "assets/images/logo/hawaii.png", "name": "Hawaii", "rating": 5, "rvcount": 163.523, "sales": 9990, "usn": "hawaii", "psw": "123", "status": 1, "type": -1},
+{"img": "assets/images/logo/ichisando.png", "name": "Ichi Sando", "rating": 3.5, "rvcount": 1.286, "sales": 560, "usn": "ichisando", "psw": "123", "status": 1, "type": -1},
+{"img": "assets/images/logo/longboard.png", "name": "Longboard", "rating": 4, "rvcount": 15.927, "sales": 1020, "usn": "longboard", "psw": "123", "status": 1, "type": -1},
+{"img": "assets/images/logo/panadicto.png", "name": "Pan Adicto", "rating": 3, "rvcount": 26.546, "sales": 890, "usn": "panadicto", "psw": "123", "status": 1, "type": -1},
+{"img": "assets/images/logo/quellipizza.png", "name": "Quelli Pizza", "rating": 3.5, "rvcount": 1.286, "sales": 560, "usn": "quellipizza", "psw": "123", "status": 1, "type": -1},
+{"img": "assets/images/logo/shokudo.png", "name": "Shokudo", "rating": 4, "rvcount": 15.927, "sales": 1020, "usn": "shokudo", "psw": "123", "status": 1, "type": -1},
+{"img": "assets/images/logo/vinny.png", "name": "Vinny", "rating": 3, "rvcount": 26.546, "sales": 890, "usn": "vinny", "psw": "123", "status": 1, "type": -1},
+
+{"img": "assets/images/logo/goichi.png", "name": "Goichi", "rating": 4, "rvcount": 12.567, "sales": 890, "usn": "goichi", "psw": "123", "status": 1, "type": -1},
+{"img": "assets/images/logo/gyroshop.png", "name": "Mr.G's Gyro Shop", "rating": 3.5, "rvcount": 8.291, "sales": 250, "usn": "gyroshop", "psw": "123", "status": 1, "type": -1},
+{"img": "assets/images/logo/assikoreanfood.png", "name": "Assi Korean Food", "rating": 3.5, "rvcount": 8.291, "sales": 250, "usn": "assikoreanfood", "psw": "123", "status": 1, "type": -1},
+{"img": "assets/images/logo/burgerzone.png", "name": "Burger Zone", "rating": 5, "rvcount": 163.523, "sales": 9990, "usn": "burgerzone", "psw": "123", "status": 1, "type": -1},
+{"img": "assets/images/logo/caravanserai.png", "name": "Caravanserai", "rating": 3.5, "rvcount": 1.286, "sales": 560, "usn": "caravansekai", "psw": "123", "status": 1, "type": -1}]

@@ -1,0 +1,45 @@
+[{
+  "_id": "63aebb289661135c80b4ad2d",
+  "user": "63ac6844d6f5f0c143c452a9",
+  "items": [
+    {
+      "productId": "63adc81ac493595b660bf2f7",
+      "quantity": 1
+    }
+  ]
+},{
+  "_id": "63aebb289661135c80b4ad2a",
+  "user": "63ac6844d6f5f0c143c452a8",
+  "items": [
+    {
+      "productId": "63adc81ac493595b660bf2f0",
+      "quantity": 2
+    },
+    {
+      "productId": "63adc81ac493595b660bf2f7",
+      "quantity": 3
+    }
+  ]
+},{
+  "_id": "63aebb289661135c80b4ad2f",
+  "user": "63ac6844d6f5f0c143c452a7",
+  "items": [
+    {
+      "productId": "63adc81ac493595b660bf2f0",
+      "quantity": 1
+    }
+  ]
+},{
+  "_id": "63aebb289661135c80b4ad31",
+  "user": "63ac7d2186ebbd0d94707bef",
+  "items": [
+    {
+      "productId": "63adc81ac493595b660bf2f1",
+      "quantity": 2
+    },
+    {
+      "productId":  "63adc81ac493595b660bf2f7",
+      "quantity": 1
+    }
+  ]
+}]
