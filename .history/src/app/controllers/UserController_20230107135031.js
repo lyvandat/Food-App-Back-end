@@ -39,9 +39,9 @@ const createSendToken = (user, req, res, redirect = false) => {
     ),
   };
 
-  if (process.env.NODE_ENV === "production") {
-    cookieOptions["secure"] = true;
-  }
+  // if (process.env.NODE_ENV === "production") {
+  //   cookieOptions["secure"] = true;
+  // }
 
   res.cookie("jwt", token, cookieOptions);
 
@@ -137,12 +137,13 @@ exports.getUsers = catchAsync(async function (req, res, next) {
     const sortOrder = option_list.includes("des") ? -1 : 1;
 
     option_list.forEach((option) => {
-      if (option && option !== "des") sortOptions[option] = sortOrder;
+      if (option && option !== 'des') sortOptions[option] = sortOrder
     });
   }
-
+  
   try {
-    const user = await UserModel.find({}).sort(sortOptions);
+    const user = await UserModel.find({})
+      .sort(sortOptions);
 
     res.status(200).json(user);
   } catch (err) {
@@ -340,44 +341,38 @@ exports.restrictTo = (...roles) => {
   });
 };
 
-exports.banUser = catchAsync(async function (req, res, next) {
-  try {
-    const user = await UserModel.findByIdAndUpdate(req.params.id, {
-      status: -1,
-    });
+exports.banUser = catchAsync(async function(req, res, next) {
+    try {
+        const user = await UserModel.findByIdAndUpdate(req.params.id, { status: -1 })
 
-    res.status(200).json({
-      message: "success",
-    });
-  } catch (err) {
-    return next(new AppError(404, "User not found or user is already banned"));
-  }
+        res.status(200).json({
+            message: "success"
+        });
+    } catch (err) {
+        return next(new AppError(404, "User not found or user is already banned"));
+    }
 });
 
-exports.unbanUser = catchAsync(async function (req, res, next) {
-  try {
-    const user = await UserModel.findByIdAndUpdate(req.params.id, {
-      status: 1,
-    });
+exports.unbanUser = catchAsync(async function(req, res, next) {
+    try {
+        const user = await UserModel.findByIdAndUpdate(req.params.id, { status: 1 });
 
-    res.status(200).json({
-      message: "success",
-    });
-  } catch (err) {
-    return next(
-      new AppError(404, "User not found or user hasn't been banned yet")
-    );
-  }
+        res.status(200).json({
+            message: "success"
+        });
+    } catch (err) {
+        return next(new AppError(404, "User not found or user hasn't been banned yet"));
+    }
 });
 
-exports.toSeller = catchAsync(async function (req, res, next) {
+exports.toSeller = catchAsync(async function(req, res, next) {
   try {
-    const user = await UserModel.findByIdAndUpdate(req.params.id, { type: -1 });
+      const user = await UserModel.findByIdAndUpdate(req.params.id, { type: -1 })
 
-    res.status(200).json({
-      message: "success",
-    });
+      res.status(200).json({
+          message: "success"
+      });
   } catch (err) {
-    return next(new AppError(404, "User not found"));
+      return next(new AppError(404, "User not found"));
   }
 });
