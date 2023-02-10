@@ -18,7 +18,10 @@ app.use(
 app.use(express.json());
 app.use(cookieParser());
 
-const corsOptions = { credentials: true, origin: false };
+const corsOptions = {
+  origin: "https://food-market.onrender.com",
+  credentials: true,
+};
 app.use(cors(corsOptions));
 // HTTP logger
 // app.use(morgan('combined'));
