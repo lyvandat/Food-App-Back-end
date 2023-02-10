@@ -18,7 +18,7 @@ app.use(
 app.use(express.json());
 app.use(cookieParser());
 
-const corsOptions = { origin: false };
+const corsOptions = { credentials: true, origin: false };
 app.use(cors(corsOptions));
 // HTTP logger
 // app.use(morgan('combined'));
